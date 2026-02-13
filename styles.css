@@ -286,3 +286,18 @@ footer {
     border-radius: 5px;
     color: #757575;
 }
+
+.hide {
+    display: none;
+}
+
+@media screen and (max-width: 576px) {
+.skills-container {
+    width: 95%;
+}
+#about,
+#skills,
+#resume {
+    padding-top: 130px;
+}
+}

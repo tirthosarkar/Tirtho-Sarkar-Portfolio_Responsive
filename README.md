@@ -1,3 +1,2 @@
 Tirtho Sarkar
-Pabna
 Bangladesh
