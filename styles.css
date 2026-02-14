@@ -292,6 +292,12 @@ footer {
 }
 
 @media screen and (max-width: 576px) {
+
+#about .about-container{
+    padding: 20px;
+}
+
+
 .skills-container {
     width: 95%;
 }
@@ -300,7 +306,12 @@ footer {
     font-size: 30px;
 }
 
-.skills-box {
+#about .about-container .about-info {
+    flex-direction: column;
+    gap: 30px;
+}
+
+.skills-box  {
     flex-direction: column;
 }
 
