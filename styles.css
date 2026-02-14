@@ -35,6 +35,11 @@
     text-decoration: none;
 }
 
+.banner-btn{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
 .text-center {
     text-align: center;
 }
@@ -292,6 +297,11 @@ footer {
 }
 
 @media screen and (max-width: 576px) {
+    header {
+    background:  url(../images/header_bg.png), #FFF8F3;
+    background-position: bottom right;
+    background-repeat: no-repeat;
+}
 
     nav{
         gap: 20px;
@@ -299,6 +309,24 @@ footer {
 
     nav .manu{
         flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    #banner{
+        margin: 20px;
+        gap: 20px;
+        text-align: center;
+    }
+
+    #banner .banner-image img{
+        max-width: 100%;
+    }
+
+    #banner .banner-content h1{
+        font-size: 44px;
+    }
+
+    .banner-btn{
         justify-content: center;
     }
 
@@ -319,7 +347,7 @@ footer {
     gap: 30px;
 }
 
-.skills-box,#resume .resume-container,.footer-container , nav{
+.skills-box,#resume .resume-container,.footer-container , nav, #banner{
     flex-direction: column;
 }
 
