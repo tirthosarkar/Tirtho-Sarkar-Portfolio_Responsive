@@ -293,10 +293,18 @@ footer {
 
 @media screen and (max-width: 576px) {
 
+    nav{
+        gap: 20px;
+    }
+
+    nav .manu{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
 #about .about-container{
     padding: 20px;
 }
-
 
 .skills-container {
     width: 95%;
@@ -311,7 +319,7 @@ footer {
     gap: 30px;
 }
 
-.skills-box  {
+.skills-box,#resume .resume-container,.footer-container , nav{
     flex-direction: column;
 }
 
@@ -324,4 +332,13 @@ footer {
 #resume {
     padding-top: 60px;
 }
+
+.resume-card{
+    margin-right: 10px;
+}
+
+.footer-container form input[type="text"], .footer-container form textarea {
+    width: 100%;
+}
+
 }
