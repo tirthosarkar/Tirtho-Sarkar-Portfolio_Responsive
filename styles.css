@@ -295,9 +295,22 @@ footer {
 .skills-container {
     width: 95%;
 }
+
+.section-heading h2 {
+    font-size: 30px;
+}
+
+.skills-box {
+    flex-direction: column;
+}
+
+.skill-card{
+    max-width: 100%;
+}
+
 #about,
 #skills,
 #resume {
-    padding-top: 130px;
+    padding-top: 60px;
 }
 }
